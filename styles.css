@@ -1,0 +1,66 @@
+/* Add to existing CSS file */
+
+#pokemon-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+#pokemon-table th,
+#pokemon-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#pokemon-table th {
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+#pokemon-table th:hover {
+    background: linear-gradient(90deg, #ff8855, #ff4d51);
+}
+
+#pokemon-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+#pokemon-table img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.view-toggles {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.view-toggles button {
+    margin: 0 10px;
+}
+
+.type-badge-small {
+    font-size: 0.8em;
+    padding: 2px 6px;
+    margin: 2px;
+    display: inline-block;
+}
+
+.table-select-btn {
+    padding: 5px 10px;
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table-select-btn:hover {
+    background: linear-gradient(90deg, #ff8855, #ff4d51);
+}
